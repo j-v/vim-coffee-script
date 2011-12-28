@@ -7,6 +7,9 @@ if exists("b:did_indent")
   finish
 endif
 
+" addition by Jon: expand tabs to spaces to fix the occasional INDENT problems
+setlocal expandtab
+
 let b:did_indent = 1
 
 setlocal autoindent
